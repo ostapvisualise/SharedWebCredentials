@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SharedWebCredentials"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "The open source fonts for Shared Web Credentials"
   s.homepage         = "https://github.com/ostapvisualise/SharedWebCredentials"
   s.license          = 'Code is MIT, then custom font licenses.'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '11.0'
   s.requires_arc = true
-
-  s.source_files = 'Source/*.swift'
+  s.swift_version = '5.0'
+  s.source_files = 'SharedWebCredentials/**/*.swift'
 end
 
